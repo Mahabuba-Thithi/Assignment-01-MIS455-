@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+  }
+  .navbar{
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo{
+	width: 134px;
+	cursor: pointer;
+    margin-left: 1rem;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 22px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:rosybrown;
+    font-size: 1.2rem;;
+
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background:white;
+    bottom: -10px;
+	position: absolute;
+	left: 0;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+.skills{
+    font-size:40px;
+    text-align:center;
+    color:indianred;
+    margin-top:100px;
+    font-style: italic;
+    font-family: "Protest Riot", sans-serif;
+}
+
+.para-2{
+    
+    width: 70%;
+    background-color: white;
+    color: rgb(5, 5, 7);
+    padding: 20px;
+    margin:20px;
+    text-align: center;
+    border: 5px solid palevioletred;
+    border-radius: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+.imageall{
+    text-align: left;
+    width: min-content;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border:2px solid black;
+    
+}
+
+.container1{
+
+    /* display: flex; */
+    display: grid ; 
+    grid-template-columns: 1.5fr 1.5fr 1.5fr ;
+    margin-top:20px;
+    
+}

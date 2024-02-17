@@ -1,0 +1,102 @@
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('image/eduback.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo{
+	width: 134px;
+	cursor: pointer;
+    margin-left: 1rem;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 22px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+    font-size: 1.2rem;;
+
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background:rosybrown;
+    bottom: -10px;
+	position: absolute;
+	left: 0;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+ 
+
+.para-1{
+    margin-top:150px;
+    width: 50%;
+    background-color:white;
+    color: rgb(5, 5, 7);
+    padding: 20px;
+    text-align: center;
+    margin-left:20px;
+    font-family: "Poppins", sans-serif;
+}
+h6{
+    color:mediumvioletred;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.para-2 img{
+
+    width: 150px;
+}
+
+img:hover {
+    border: 2px solid black;
+    box-shadow: 2px 5px 6px grey;
+}
+.para-2{
+    text-align:center;
+    width: 50%;
+    background-color:white;
+    color: rgb(43, 55, 22);
+    margin: 30px;
+    padding: 20px;
+    position:absolute;
+    right: 0px;
+    font-family: "PT Serif", serif;
+}
+
+.para-3{
+    margin-top:470px;
+    width: 50%;
+    background-color:white;
+    color: rgb(5, 5, 7);
+    padding: 20px;
+    text-align: center;
+    margin-left:20px;
+    margin-bottom: 20px;
+    font-family: "Fredoka", sans-serif;
+    
+}
